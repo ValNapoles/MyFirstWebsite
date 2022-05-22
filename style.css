@@ -1,0 +1,111 @@
+html, body {
+  background-color:#1A5276;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+/* keep clean layout - soft pink will be added to add a little color*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* h1 and h2 will have teal background - make white and pink */
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: garamond, georgia;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  font-family: garamond, georgia;
+  font-weight: bold;
+  color: #EF9A9A;;
+  letter-spacing: 3px;
+}
+
+h3 {
+  text-align: center;
+  font-family: garamond, georgia;
+  font-weight: bold;
+  color: #1A5276;
+}
+
+
+
+/* body will have white background - keep all fonts teal */
+div {
+  width: 615px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+/* add border to image */
+img {
+  border-radius: 50%;
+  border: 5px solid #1A5276;
+}
+
+hr {
+  border: 2px solid #1A5276;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  font-family: garamond, georgia;
+  color: #1A5276;
+}
+
+/* article needs to stand out - add shadowing */
+article {
+  text-align: center;
+  font-size: 16px;
+  font-family: garamond, georgia;
+  color: #1A5276; 
+  text-shadow: .5px .5px #EF9A9A;
+  
+}
+
+/* links to have pink - add pink background */
+ul, ol {
+  text-align: center;
+  font-size: 16px;
+  font-family: garamond, georgia;
+  color: #1A5276;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: #1A5276;
+}
+
+a:visited {
+  color: #EF9A9A;
+}
+
+a:hover {
+  background-color: #1A5276;
+  color: white;
+}
+
+a:active {
+  background-color: #EF9A9A;
+  color: white;
+}
+
+#foot {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+}
